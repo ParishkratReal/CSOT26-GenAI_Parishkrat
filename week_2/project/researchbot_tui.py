@@ -29,7 +29,7 @@ from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.widgets import Header, Footer, Input, RichLog
 from textual.containers import Vertical
-from week_2.project.agent import run_agent
+from agent import run_agent
 
 load_dotenv()
 

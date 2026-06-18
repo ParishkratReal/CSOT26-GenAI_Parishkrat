@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 import requests
 import json
 import trafilatura  
-from week_2.project.alphaxiv import discover_papers_sync
+from alphaxiv import discover_papers_sync
 
 load_dotenv()
 
